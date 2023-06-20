@@ -1,0 +1,30 @@
+body {
+
+    background-color:aquamarine
+}
+h1 {
+    color: brown;
+    font-family:fantasy
+    font-size: x-large;
+}
+p {
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+}
+ul {
+    color: coral;
+    font-size: x-large;
+    font-family: cursive;
+}
+ol {
+    color: coral;
+    font-size: x-large;
+    font-family: cursive;
+}
+h3 {
+    font-size: large;
+}
+h4 {
+    font-size: large;
+}
