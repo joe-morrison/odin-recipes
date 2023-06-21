@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>  
+  <button style="color: blue;width: 15  0px;font-size: x-large;background-color: aqua;position: relative;">Press me</button>
+
+  <script>
+    // Your JavaScript goes here!
+    
+    function favoriteAnimal(animal) {
+      return animal + " is my favorite animal!"
+    }
+
+    function callFavAnimal() {
+     let favAnimal = prompt("What is your favourite animal?");
+        if (favAnimal === '') {
+            alert(`Please try again`);
+            let favAnimal = prompt("What is your favourite animal?");   
+        }
+     console.log(favoriteAnimal(`${favAnimal}`));
+     alert(favoriteAnimal(`${favAnimal}`));
+    }
+       
+    button.addEventListener("click", callFavAnimal);
+  </script>
+ 
+</body>
+</html>
